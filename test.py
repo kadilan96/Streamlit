@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title("title")
 my_table = st.empty()
 
