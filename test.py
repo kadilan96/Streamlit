@@ -18,3 +18,7 @@ chart_data = pd.DataFrame(
      columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
+
+option = st.selectbox(
+    '당신의 직책을 선택해주세요.',
+     pd.Series(['CEO', 'AI Engineer', 'Intern', 'Product Manager']))
