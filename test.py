@@ -21,4 +21,4 @@ st.line_chart(chart_data)
 
 option = st.selectbox(
     '당신의 직책을 선택해주세요.',
-     pd.Series(['CEO', 'AI Engineer', 'Intern', 'Product Manager']))
+     pd.Series(['1','2','3','4','5']))
